@@ -21,7 +21,7 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
     # keep checking as long as we haven't hit the end of either pattern or source while
     # pind is still a valid index OR sind is still a valid index (valid index means that
     # the index is != to the length of the list)
-    while "FILL IN CONDITION HERE":
+    while pind < len(pattern) and sind < len(source):
         # your job is to fill out the body of this loop
 
         # you should delete the following line
